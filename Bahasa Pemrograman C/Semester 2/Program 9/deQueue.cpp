@@ -11,7 +11,7 @@ void deQueue(antrian *Q, tInfo *X) {
         (*Q).arrQ[k-1] = (*Q).arrQ[k];
     }
     (*Q).tail--;
-}
+} 
 
 // Komentar:
 // Fungsi untuk menghapus elemen pertama dari antrian
